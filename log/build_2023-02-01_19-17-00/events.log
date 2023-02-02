@@ -1,0 +1,516 @@
+[0.000000] (-) TimerEvent: {}
+[0.000500] (perception_navigation) JobQueued: {'identifier': 'perception_navigation', 'dependencies': OrderedDict()}
+[0.000597] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000708] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.000768] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs')])}
+[0.000879] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs')])}
+[0.000992] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.057543] (perception_navigation) JobStarted: {'identifier': 'perception_navigation'}
+[0.101162] (-) TimerEvent: {}
+[0.139104] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.144494] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/aggregator/ros2_ws/src/realsense-ros/realsense2_camera_msgs', '-DCMAKE_INSTALL_PREFIX=/home/aggregator/ros2_ws/install/realsense2_camera_msgs'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.201477] (-) TimerEvent: {}
+[0.253025] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.301613] (-) TimerEvent: {}
+[0.321060] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.321508] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.401776] (-) TimerEvent: {}
+[0.502397] (-) TimerEvent: {}
+[0.603039] (-) TimerEvent: {}
+[0.703660] (-) TimerEvent: {}
+[0.804248] (-) TimerEvent: {}
+[0.904915] (-) TimerEvent: {}
+[0.972671] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.010196] (-) TimerEvent: {}
+[1.015203] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.026860] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.034235] (perception_navigation) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/perception_navigation', 'build', '--build-base', '/home/aggregator/ros2_ws/build/perception_navigation/build', 'install', '--prefix', '/home/aggregator/ros2_ws/install/perception_navigation', '--record', '/home/aggregator/ros2_ws/build/perception_navigation/install.log', '--single-version-externally-managed'], 'cwd': '/home/aggregator/ros2_ws/src/perception_navigation', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'aggregator', 'SSH_AGENT_PID': '1060', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/aggregator', 'OLDPWD': '/home/aggregator/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '794', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aggregator', 'JOURNAL_STREAM': '8:38727', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aggregator', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107', 'INVOCATION_ID': '1a7601865d974d20ae1e6a29f8196f7a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aggregator/ros2_ws/build/perception_navigation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.052934] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.110354] (-) TimerEvent: {}
+[1.211113] (-) TimerEvent: {}
+[1.311754] (-) TimerEvent: {}
+[1.412417] (-) TimerEvent: {}
+[1.496225] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.512590] (-) TimerEvent: {}
+[1.583369] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[1.612768] (-) TimerEvent: {}
+[1.625542] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.712942] (-) TimerEvent: {}
+[1.762195] (perception_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[1.763968] (perception_navigation) StdoutLine: {'line': b'creating ../../build/perception_navigation/perception_navigation.egg-info\n'}
+[1.764531] (perception_navigation) StdoutLine: {'line': b'writing ../../build/perception_navigation/perception_navigation.egg-info/PKG-INFO\n'}
+[1.765424] (perception_navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/perception_navigation/perception_navigation.egg-info/dependency_links.txt\n'}
+[1.766020] (perception_navigation) StdoutLine: {'line': b'writing entry points to ../../build/perception_navigation/perception_navigation.egg-info/entry_points.txt\n'}
+[1.766300] (perception_navigation) StdoutLine: {'line': b'writing requirements to ../../build/perception_navigation/perception_navigation.egg-info/requires.txt\n'}
+[1.766620] (perception_navigation) StdoutLine: {'line': b'writing top-level names to ../../build/perception_navigation/perception_navigation.egg-info/top_level.txt\n'}
+[1.767476] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.772368] (perception_navigation) StdoutLine: {'line': b"writing manifest file '../../build/perception_navigation/perception_navigation.egg-info/SOURCES.txt'\n"}
+[1.813112] (-) TimerEvent: {}
+[1.890220] (perception_navigation) StdoutLine: {'line': b"reading manifest file '../../build/perception_navigation/perception_navigation.egg-info/SOURCES.txt'\n"}
+[1.892436] (perception_navigation) StdoutLine: {'line': b"writing manifest file '../../build/perception_navigation/perception_navigation.egg-info/SOURCES.txt'\n"}
+[1.893072] (perception_navigation) StdoutLine: {'line': b'running build\n'}
+[1.893338] (perception_navigation) StdoutLine: {'line': b'running build_py\n'}
+[1.893658] (perception_navigation) StdoutLine: {'line': b'creating /home/aggregator/ros2_ws/build/perception_navigation/build\n'}
+[1.893902] (perception_navigation) StdoutLine: {'line': b'creating /home/aggregator/ros2_ws/build/perception_navigation/build/lib\n'}
+[1.894223] (perception_navigation) StdoutLine: {'line': b'creating /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation\n'}
+[1.894459] (perception_navigation) StdoutLine: {'line': b'copying perception_navigation/__init__.py -> /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation\n'}
+[1.894757] (perception_navigation) StdoutLine: {'line': b'running install\n'}
+[1.897304] (perception_navigation) StdoutLine: {'line': b'running install_lib\n'}
+[1.900983] (perception_navigation) StdoutLine: {'line': b'creating /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation\n'}
+[1.901527] (perception_navigation) StdoutLine: {'line': b'copying /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation/__init__.py -> /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation\n'}
+[1.902830] (perception_navigation) StdoutLine: {'line': b'byte-compiling /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation/__init__.py to __init__.cpython-38.pyc\n'}
+[1.906318] (perception_navigation) StdoutLine: {'line': b'running install_data\n'}
+[1.908247] (perception_navigation) StdoutLine: {'line': b'creating /home/aggregator/ros2_ws/install/perception_navigation/share/ament_index\n'}
+[1.908807] (perception_navigation) StdoutLine: {'line': b'creating /home/aggregator/ros2_ws/install/perception_navigation/share/ament_index/resource_index\n'}
+[1.909079] (perception_navigation) StdoutLine: {'line': b'creating /home/aggregator/ros2_ws/install/perception_navigation/share/ament_index/resource_index/packages\n'}
+[1.909338] (perception_navigation) StdoutLine: {'line': b'copying resource/perception_navigation -> /home/aggregator/ros2_ws/install/perception_navigation/share/ament_index/resource_index/packages\n'}
+[1.909684] (perception_navigation) StdoutLine: {'line': b'copying package.xml -> /home/aggregator/ros2_ws/install/perception_navigation/share/perception_navigation\n'}
+[1.909936] (perception_navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.913318] (-) TimerEvent: {}
+[1.915515] (perception_navigation) StdoutLine: {'line': b'Copying ../../build/perception_navigation/perception_navigation.egg-info to /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation-0.0.0-py3.8.egg-info\n'}
+[1.918117] (perception_navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[1.975115] (perception_navigation) StdoutLine: {'line': b"writing list of installed files to '/home/aggregator/ros2_ws/build/perception_navigation/install.log'\n"}
+[2.013512] (-) TimerEvent: {}
+[2.046765] (perception_navigation) CommandEnded: {'returncode': 0}
+[2.115236] (-) TimerEvent: {}
+[2.132308] (perception_navigation) JobEnded: {'identifier': 'perception_navigation', 'rc': 0}
+[2.153539] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[2.215719] (-) TimerEvent: {}
+[2.316941] (-) TimerEvent: {}
+[2.417631] (-) TimerEvent: {}
+[2.481326] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[2.488518] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[2.492967] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[2.499193] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.517841] (-) TimerEvent: {}
+[2.618472] (-) TimerEvent: {}
+[2.719290] (-) TimerEvent: {}
+[2.819933] (-) TimerEvent: {}
+[2.920571] (-) TimerEvent: {}
+[3.023118] (-) TimerEvent: {}
+[3.044335] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/aggregator/ros2_ws/install/py_pubsub', '--uninstall', '--editable', '--build-directory', '/home/aggregator/ros2_ws/build/py_pubsub/build'], 'cwd': '/home/aggregator/ros2_ws/build/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'aggregator', 'SSH_AGENT_PID': '1060', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/aggregator', 'OLDPWD': '/home/aggregator/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '794', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aggregator', 'JOURNAL_STREAM': '8:38727', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aggregator', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107', 'INVOCATION_ID': '1a7601865d974d20ae1e6a29f8196f7a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aggregator/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.123124] (-) TimerEvent: {}
+[3.124571] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.223288] (-) TimerEvent: {}
+[3.323893] (-) TimerEvent: {}
+[3.363712] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.424047] (-) TimerEvent: {}
+[3.439561] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.498238] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.524204] (-) TimerEvent: {}
+[3.623848] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.624274] (-) TimerEvent: {}
+[3.624758] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.625104] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.724509] (-) TimerEvent: {}
+[3.816224] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.7 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[3.816802] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[3.821156] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.7 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[3.824697] (-) TimerEvent: {}
+[3.884074] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.924887] (-) TimerEvent: {}
+[4.025509] (-) TimerEvent: {}
+[4.106831] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.118295] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/aggregator/ros2_ws/build/realsense2_camera_msgs\n'}
+[4.125719] (-) TimerEvent: {}
+[4.147100] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[4.149042] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'build'}
+[4.156220] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aggregator/ros2_ws/build/realsense2_camera_msgs', '--', '-j2', '-l2'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.225949] (-) TimerEvent: {}
+[4.306453] (realsense2_camera_msgs) StdoutLine: {'line': b'[  1%] Built target realsense2_camera_msgs__cpp\n'}
+[4.326109] (-) TimerEvent: {}
+[4.367894] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target realsense2_camera_msgs__rosidl_generator_c\n'}
+[4.419612] (py_pubsub) StdoutLine: {'line': b'Removing /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)\n'}
+[4.426322] (-) TimerEvent: {}
+[4.436061] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 23%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp\n'}
+[4.485157] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 34%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.491415] (py_pubsub) CommandEnded: {'returncode': 0}
+[4.493827] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/aggregator/ros2_ws/build/py_pubsub/build', 'install', '--prefix', '/home/aggregator/ros2_ws/install/py_pubsub', '--record', '/home/aggregator/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/aggregator/ros2_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'aggregator', 'SSH_AGENT_PID': '1060', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/aggregator', 'OLDPWD': '/home/aggregator/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '794', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aggregator', 'JOURNAL_STREAM': '8:38727', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aggregator', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107', 'INVOCATION_ID': '1a7601865d974d20ae1e6a29f8196f7a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aggregator/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[4.526500] (-) TimerEvent: {}
+[4.550621] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 45%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[4.577756] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_c\n'}
+[4.626692] (-) TimerEvent: {}
+[4.667283] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.690838] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.726849] (-) TimerEvent: {}
+[4.784177] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs\n'}
+[4.827050] (-) TimerEvent: {}
+[4.834064] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] Built target realsense2_camera_msgs__py\n'}
+[4.908294] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 89%] Built target realsense2_camera_msgs__python\n'}
+[4.927194] (-) TimerEvent: {}
+[4.991321] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 92%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[5.027372] (-) TimerEvent: {}
+[5.048463] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.065750] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.093740] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[5.127622] (-) TimerEvent: {}
+[5.228396] (-) TimerEvent: {}
+[5.309620] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'install'}
+[5.328647] (-) TimerEvent: {}
+[5.336354] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aggregator/ros2_ws/build/realsense2_camera_msgs'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.365140] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.366503] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.373650] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[5.376984] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[5.378534] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[5.380384] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[5.381384] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[5.381925] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[5.410728] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs\n'}
+[5.414583] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[5.416145] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[5.417731] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[5.419287] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__functions.h\n'}
+[5.420864] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__struct.h\n'}
+[5.422424] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__type_support.h\n'}
+[5.424094] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__functions.h\n'}
+[5.425617] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__struct.h\n'}
+[5.427196] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[5.428758] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/extrinsics.h\n'}
+[5.429235] (-) TimerEvent: {}
+[5.430795] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/imu_info.h\n'}
+[5.432426] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/metadata.h\n'}
+[5.434016] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.435966] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__functions.h\n'}
+[5.437546] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__struct.h\n'}
+[5.439144] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__type_support.h\n'}
+[5.440739] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/device_info.h\n'}
+[5.443049] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh\n'}
+[5.444954] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv\n'}
+[5.447976] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[5.449472] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h\n'}
+[5.451062] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[5.452651] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.454300] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[5.457121] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.460165] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.461745] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.463483] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.465424] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.468793] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.471029] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.473617] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[5.475465] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h\n'}
+[5.476855] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[5.478366] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.480341] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[5.483281] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[5.484979] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[5.487378] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[5.490127] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp\n'}
+[5.491717] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp\n'}
+[5.493240] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp\n'}
+[5.494766] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[5.497000] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[5.498743] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[5.500267] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/extrinsics.hpp\n'}
+[5.501669] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/imu_info.hpp\n'}
+[5.503322] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/metadata.hpp\n'}
+[5.504993] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__builder.hpp\n'}
+[5.506534] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__struct.hpp\n'}
+[5.508117] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__traits.hpp\n'}
+[5.508977] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.510324] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/device_info.hpp\n'}
+[5.512667] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.513525] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[5.513800] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[5.514531] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.516342] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[5.517223] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/intel_cam_subber.py -> /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[5.517894] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.519606] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[5.520102] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.521577] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.522267] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[5.523950] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh\n'}
+[5.525587] (py_pubsub) StdoutLine: {'line': b'creating /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[5.526177] (py_pubsub) StdoutLine: {'line': b'copying /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[5.526616] (py_pubsub) StdoutLine: {'line': b'copying /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub/intel_cam_subber.py -> /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[5.527095] (py_pubsub) StdoutLine: {'line': b'copying /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[5.527583] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv\n'}
+[5.528083] (py_pubsub) StdoutLine: {'line': b'copying /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[5.529403] (-) TimerEvent: {}
+[5.530270] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc\n'}
+[5.531935] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/__init__.py\n'}
+[5.534395] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/intel_cam_subber.py to intel_cam_subber.cpython-38.pyc\n'}
+[5.534914] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/__init__.py\n'}
+[5.535998] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc\n'}
+[5.537057] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_extrinsics.py\n'}
+[5.537714] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[5.538968] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[5.539638] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_imu_info.py\n'}
+[5.541153] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_metadata.py\n'}
+[5.541956] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.544545] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/srv/__init__.py\n'}
+[5.546109] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/srv/_device_info.py\n'}
+[5.547294] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[5.549066] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.551387] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.551925] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[5.553928] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.557308] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__python.so\n'}
+[5.558395] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl\n'}
+[5.560257] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl\n'}
+[5.562108] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl\n'}
+[5.564498] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl\n'}
+[5.566522] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg\n'}
+[5.570191] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg\n'}
+[5.572056] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg\n'}
+[5.573904] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv\n'}
+[5.575768] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg\n'}
+[5.577569] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg\n'}
+[5.579597] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs\n'}
+[5.582067] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs\n'}
+[5.583927] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh\n'}
+[5.585725] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[5.587586] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh\n'}
+[5.589350] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv\n'}
+[5.591313] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash\n'}
+[5.593124] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh\n'}
+[5.594892] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh\n'}
+[5.596755] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv\n'}
+[5.598147] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv\n'}
+[5.611227] (py_pubsub) StdoutLine: {'line': b'Installing intel_cam_subber script to /home/aggregator/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.612082] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/aggregator/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.613354] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/aggregator/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.615211] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/aggregator/ros2_ws/build/py_pubsub/install.log'\n"}
+[5.628328] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs\n'}
+[5.630277] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.630692] (-) TimerEvent: {}
+[5.631693] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.633559] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.635385] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.637226] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.639042] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.640899] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.642688] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake\n'}
+[5.644316] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake\n'}
+[5.646161] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml\n'}
+[5.648262] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so\n'}
+[5.650441] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.652488] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so\n'}
+[5.654700] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.657754] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[5.693699] (py_pubsub) CommandEnded: {'returncode': 0}
+[5.730836] (-) TimerEvent: {}
+[5.753400] (realsense2_camera_msgs) StdoutLine: {'line': b"Compiling '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/__init__.py'...\n"}
+[5.762421] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.773139] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[5.773622] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.774679] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.775483] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.775933] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.776254] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.777312] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.777890] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.778238] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.779109] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.779535] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.790808] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[5.831205] (-) TimerEvent: {}
+[5.931939] (-) TimerEvent: {}
+[6.033195] (-) TimerEvent: {}
+[6.133879] (-) TimerEvent: {}
+[6.239813] (-) TimerEvent: {}
+[6.322335] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 0}
+[6.324789] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[6.345018] (-) TimerEvent: {}
+[6.374826] (realsense2_description) JobStarted: {'identifier': 'realsense2_description'}
+[6.425091] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'cmake'}
+[6.433565] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/aggregator/ros2_ws/src/realsense-ros/realsense2_camera', '-DCMAKE_INSTALL_PREFIX=/home/aggregator/ros2_ws/install/realsense2_camera'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[6.445618] (-) TimerEvent: {}
+[6.448331] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'cmake'}
+[6.455556] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '/home/aggregator/ros2_ws/src/realsense-ros/realsense2_description', '-DCMAKE_INSTALL_PREFIX=/home/aggregator/ros2_ws/install/realsense2_description'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[6.495310] (realsense2_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.508987] (realsense2_camera) StdoutLine: {'line': b'-- Create Release Build.\n'}
+[6.510491] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.545792] (-) TimerEvent: {}
+[6.557868] (realsense2_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.580075] (realsense2_camera) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.645956] (-) TimerEvent: {}
+[6.746519] (-) TimerEvent: {}
+[6.847148] (-) TimerEvent: {}
+[6.947732] (-) TimerEvent: {}
+[7.048315] (-) TimerEvent: {}
+[7.148899] (-) TimerEvent: {}
+[7.234104] (realsense2_camera) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.249199] (realsense2_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.249632] (-) TimerEvent: {}
+[7.256666] (realsense2_camera) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[7.325127] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.337216] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.349851] (-) TimerEvent: {}
+[7.450472] (-) TimerEvent: {}
+[7.463445] (realsense2_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.478505] (realsense2_description) StdoutLine: {'line': b'-- Generating done\n'}
+[7.480371] (realsense2_description) StdoutLine: {'line': b'-- Build files have been written to: /home/aggregator/ros2_ws/build/realsense2_description\n'}
+[7.486607] (realsense2_description) CommandEnded: {'returncode': 0}
+[7.488627] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'build'}
+[7.489878] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aggregator/ros2_ws/build/realsense2_description', '--', '-j2', '-l2'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[7.550751] (-) TimerEvent: {}
+[7.593888] (realsense2_description) CommandEnded: {'returncode': 0}
+[7.651159] (-) TimerEvent: {}
+[7.652956] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'install'}
+[7.653939] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aggregator/ros2_ws/build/realsense2_description'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[7.678449] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.681199] (realsense2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.682296] (realsense2_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.724263] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/launch/launch_utils.py\n'}
+[7.731492] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/launch/view_model.launch.py\n'}
+[7.733677] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d415.stl\n'}
+[7.735276] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae\n'}
+[7.736798] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d455.stl\n'}
+[7.738283] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/l515.dae\n'}
+[7.739908] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/plug.stl\n'}
+[7.741424] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl\n'}
+[7.743742] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz\n'}
+[7.746420] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro\n'}
+[7.748015] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro\n'}
+[7.749539] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro\n'}
+[7.751131] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro\n'}
+[7.751584] (-) TimerEvent: {}
+[7.753070] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d455.urdf.xacro\n'}
+[7.754602] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_l515.urdf.xacro\n'}
+[7.756227] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro\n'}
+[7.757738] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro\n'}
+[7.759292] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro\n'}
+[7.760882] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro\n'}
+[7.762278] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro\n'}
+[7.763971] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro\n'}
+[7.765479] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro\n'}
+[7.766637] (realsense2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.6 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[7.767817] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro\n'}
+[7.769945] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d455_camera.urdf.xacro\n'}
+[7.771568] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_l515_camera.urdf.xacro\n'}
+[7.773128] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro\n'}
+[7.774604] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro\n'}
+[7.777051] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/ament_index/resource_index/package_run_dependencies/realsense2_description\n'}
+[7.782774] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/ament_index/resource_index/parent_prefix_path/realsense2_description\n'}
+[7.787613] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.sh\n'}
+[7.789264] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.dsv\n'}
+[7.791549] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/environment/path.sh\n'}
+[7.793515] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/environment/path.dsv\n'}
+[7.795382] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.bash\n'}
+[7.798051] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.sh\n'}
+[7.799827] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.zsh\n'}
+[7.801694] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.dsv\n'}
+[7.803271] (realsense2_description) StdoutLine: {'line': b'-- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/package.dsv\n'}
+[7.829744] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/ament_index/resource_index/packages/realsense2_description\n'}
+[7.831096] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake\n'}
+[7.832713] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake\n'}
+[7.834521] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/package.xml\n'}
+[7.848200] (realsense2_description) CommandEnded: {'returncode': 0}
+[7.856863] (-) TimerEvent: {}
+[7.957508] (-) TimerEvent: {}
+[8.061858] (-) TimerEvent: {}
+[8.073257] (realsense2_description) JobEnded: {'identifier': 'realsense2_description', 'rc': 0}
+[8.162183] (-) TimerEvent: {}
+[8.262916] (-) TimerEvent: {}
+[8.363695] (-) TimerEvent: {}
+[8.385796] (realsense2_camera) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[8.463956] (-) TimerEvent: {}
+[8.542388] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.548074] (realsense2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.564223] (-) TimerEvent: {}
+[8.664889] (-) TimerEvent: {}
+[8.765589] (-) TimerEvent: {}
+[8.866311] (-) TimerEvent: {}
+[8.966973] (-) TimerEvent: {}
+[9.067728] (-) TimerEvent: {}
+[9.168550] (-) TimerEvent: {}
+[9.247101] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[9.268825] (-) TimerEvent: {}
+[9.369747] (-) TimerEvent: {}
+[9.443396] (realsense2_camera) StdoutLine: {'line': b'-- Found realsense2_camera_msgs: 4.51.1 (/home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)\n'}
+[9.470056] (-) TimerEvent: {}
+[9.570778] (-) TimerEvent: {}
+[9.595118] (realsense2_camera) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[9.671066] (-) TimerEvent: {}
+[9.771787] (-) TimerEvent: {}
+[9.853419] (realsense2_camera) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[9.872051] (-) TimerEvent: {}
+[9.972811] (-) TimerEvent: {}
+[10.073513] (-) TimerEvent: {}
+[10.174312] (-) TimerEvent: {}
+[10.275096] (-) TimerEvent: {}
+[10.375810] (-) TimerEvent: {}
+[10.476540] (-) TimerEvent: {}
+[10.577268] (-) TimerEvent: {}
+[10.677924] (-) TimerEvent: {}
+[10.778694] (-) TimerEvent: {}
+[10.879662] (-) TimerEvent: {}
+[10.886603] (realsense2_camera) StdoutLine: {'line': b'-- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)\n'}
+[10.979864] (-) TimerEvent: {}
+[11.080599] (-) TimerEvent: {}
+[11.113836] (realsense2_camera) StdoutLine: {'line': b'-- Build for ROS2 Foxy\n'}
+[11.180894] (-) TimerEvent: {}
+[11.281605] (-) TimerEvent: {}
+[11.382210] (-) TimerEvent: {}
+[11.482807] (-) TimerEvent: {}
+[11.583488] (-) TimerEvent: {}
+[11.592104] (realsense2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.683689] (-) TimerEvent: {}
+[11.726217] (realsense2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[11.733998] (realsense2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/aggregator/ros2_ws/build/realsense2_camera\n'}
+[11.764594] (realsense2_camera) CommandEnded: {'returncode': 0}
+[11.767290] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'build'}
+[11.767430] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aggregator/ros2_ws/build/realsense2_camera', '--', '-j2', '-l2'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[11.783962] (-) TimerEvent: {}
+[11.884636] (-) TimerEvent: {}
+[11.966779] (realsense2_camera) StdoutLine: {'line': b'[ 12%] Built target realsense2_camera_node\n'}
+[11.984915] (-) TimerEvent: {}
+[12.055102] (realsense2_camera) StdoutLine: {'line': b'[100%] Built target realsense2_camera\n'}
+[12.088228] (realsense2_camera) CommandEnded: {'returncode': 0}
+[12.091720] (-) TimerEvent: {}
+[12.192818] (-) TimerEvent: {}
+[12.234265] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'install'}
+[12.234818] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aggregator/ros2_ws/build/realsense2_camera'], 'cwd': '/home/aggregator/ros2_ws/build/realsense2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'aggregator'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aggregator'), ('OLDPWD', '/home/aggregator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aggregator'), ('JOURNAL_STREAM', '8:38727'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aggregator'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aggregator-UP-APL01:@/tmp/.ICE-unix/1107,unix/aggregator-UP-APL01:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', '1a7601865d974d20ae1e6a29f8196f7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ba5bea0_ed51_4b4c_a0fd_15541ebc74fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aggregator/ros2_ws/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy')]), 'shell': False}
+[12.258734] (realsense2_camera) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[12.260860] (realsense2_camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.293180] (-) TimerEvent: {}
+[12.298873] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node\n'}
+[12.300415] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so\n'}
+[12.302521] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/base_realsense_node.h\n'}
+[12.303108] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/constants.h\n'}
+[12.303712] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/dynamic_params.h\n'}
+[12.304596] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/image_publisher.h\n'}
+[12.304984] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/named_filter.h\n'}
+[12.305825] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/profile_manager.h\n'}
+[12.306358] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h\n'}
+[12.306913] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/ros_param_backend.h\n'}
+[12.307836] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/ros_sensor.h\n'}
+[12.308411] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/ros_utils.h\n'}
+[12.309148] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/sensor_params.h\n'}
+[12.309678] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/t265_realsense_node.h\n'}
+[12.311874] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz\n'}
+[12.312407] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py\n'}
+[12.313224] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py\n'}
+[12.313752] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py\n'}
+[12.314286] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py\n'}
+[12.315764] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh\n'}
+[12.316759] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv\n'}
+[12.317854] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera\n'}
+[12.319030] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera\n'}
+[12.324182] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh\n'}
+[12.324608] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv\n'}
+[12.324842] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh\n'}
+[12.325056] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv\n'}
+[12.325384] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash\n'}
+[12.325643] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh\n'}
+[12.325864] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh\n'}
+[12.326201] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv\n'}
+[12.326853] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv\n'}
+[12.350797] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera\n'}
+[12.351978] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera\n'}
+[12.353168] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.354127] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.354886] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.356139] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake\n'}
+[12.356731] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake\n'}
+[12.357951] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml\n'}
+[12.368667] (realsense2_camera) CommandEnded: {'returncode': 0}
+[12.398669] (-) TimerEvent: {}
+[12.504789] (-) TimerEvent: {}
+[12.610816] (-) TimerEvent: {}
+[12.686773] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 0}
+[12.690377] (-) EventReactorShutdown: {}

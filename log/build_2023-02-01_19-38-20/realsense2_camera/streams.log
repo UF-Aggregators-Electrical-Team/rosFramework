@@ -1,0 +1,71 @@
+[0.102s] Invoking command in '/home/aggregator/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aggregator/ros2_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aggregator/ros2_ws/install/realsense2_camera
+[0.170s] -- Create Release Build.
+[0.171s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.240s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.943s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.967s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.035s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.507s] -- Found cv_bridge: 3.0.6 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.173s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.318s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.323s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.038s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.248s] -- Found realsense2_camera_msgs: 4.51.1 (/home/aggregator/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[3.417s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.691s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.719s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[4.999s] -- Build for ROS2 Foxy
+[5.501s] -- Configuring done
+[5.612s] -- Generating done
+[5.619s] -- Build files have been written to: /home/aggregator/ros2_ws/build/realsense2_camera
+[5.648s] Invoked command in '/home/aggregator/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aggregator/ros2_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aggregator/ros2_ws/install/realsense2_camera
+[5.657s] Invoking command in '/home/aggregator/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aggregator/ros2_ws/build/realsense2_camera -- -j2 -l2
+[5.851s] [ 12%] Built target realsense2_camera_node
+[5.912s] [100%] Built target realsense2_camera
+[5.944s] Invoked command in '/home/aggregator/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aggregator/ros2_ws/build/realsense2_camera -- -j2 -l2
+[6.082s] Invoking command in '/home/aggregator/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aggregator/ros2_ws/build/realsense2_camera
+[6.104s] -- Install configuration: "Release"
+[6.106s] -- Execute custom install script
+[6.107s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[6.109s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[6.112s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/base_realsense_node.h
+[6.112s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/constants.h
+[6.113s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/dynamic_params.h
+[6.113s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/image_publisher.h
+[6.114s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/named_filter.h
+[6.115s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/profile_manager.h
+[6.115s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h
+[6.116s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/ros_param_backend.h
+[6.117s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/ros_sensor.h
+[6.117s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/ros_utils.h
+[6.118s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/sensor_params.h
+[6.119s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/include/t265_realsense_node.h
+[6.121s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[6.122s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py
+[6.122s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[6.123s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[6.123s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[6.125s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[6.125s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[6.126s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[6.127s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[6.129s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[6.130s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[6.130s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[6.131s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[6.132s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[6.134s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[6.135s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[6.135s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[6.136s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[6.162s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[6.163s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[6.164s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.165s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[6.166s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.167s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[6.168s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[6.169s] -- Up-to-date symlink: /home/aggregator/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[6.175s] Invoked command in '/home/aggregator/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aggregator/ros2_ws/build/realsense2_camera

@@ -1,0 +1,41 @@
+[0.999s] Invoking command in '/home/aggregator/ros2_ws/src/py_pubsub': PYTHONPATH=/home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/aggregator/ros2_ws/build/py_pubsub/build install --prefix /home/aggregator/ros2_ws/install/py_pubsub --record /home/aggregator/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.793s] running egg_info
+[1.795s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.797s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.799s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.800s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.801s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.802s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.811s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.010s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.013s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.014s] running build
+[2.015s] running build_py
+[2.017s] creating /home/aggregator/ros2_ws/build/py_pubsub/build
+[2.017s] creating /home/aggregator/ros2_ws/build/py_pubsub/build/lib
+[2.018s] creating /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.019s] copying py_pubsub/__init__.py -> /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.020s] copying py_pubsub/publisher_member_function.py -> /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.022s] copying py_pubsub/subscriber_member_function.py -> /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.023s] running install
+[2.028s] running install_lib
+[2.033s] creating /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[2.034s] copying /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[2.035s] copying /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[2.045s] copying /home/aggregator/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[2.047s] byte-compiling /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc
+[2.047s] byte-compiling /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[2.050s] byte-compiling /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[2.052s] running install_data
+[2.055s] creating /home/aggregator/ros2_ws/install/py_pubsub/share/ament_index
+[2.056s] creating /home/aggregator/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[2.056s] creating /home/aggregator/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.057s] copying resource/py_pubsub -> /home/aggregator/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.057s] copying package.xml -> /home/aggregator/ros2_ws/install/py_pubsub/share/py_pubsub
+[2.057s] running install_egg_info
+[2.065s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[2.069s] running install_scripts
+[2.133s] Installing listener script to /home/aggregator/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.134s] Installing talker script to /home/aggregator/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.136s] writing list of installed files to '/home/aggregator/ros2_ws/build/py_pubsub/install.log'
+[2.221s] Invoked command in '/home/aggregator/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/aggregator/ros2_ws/build/py_pubsub/build install --prefix /home/aggregator/ros2_ws/install/py_pubsub --record /home/aggregator/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

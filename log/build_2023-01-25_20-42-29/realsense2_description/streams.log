@@ -1,0 +1,56 @@
+[0.105s] Invoking command in '/home/aggregator/ros2_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aggregator/ros2_ws/src/realsense-ros/realsense2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aggregator/ros2_ws/install/realsense2_description
+[0.160s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.247s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.127s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.400s] -- Configuring done
+[1.420s] -- Generating done
+[1.423s] -- Build files have been written to: /home/aggregator/ros2_ws/build/realsense2_description
+[1.431s] Invoked command in '/home/aggregator/ros2_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aggregator/ros2_ws/src/realsense-ros/realsense2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aggregator/ros2_ws/install/realsense2_description
+[1.433s] Invoking command in '/home/aggregator/ros2_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aggregator/ros2_ws/build/realsense2_description -- -j2 -l2
+[1.571s] Invoked command in '/home/aggregator/ros2_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aggregator/ros2_ws/build/realsense2_description -- -j2 -l2
+[1.642s] Invoking command in '/home/aggregator/ros2_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aggregator/ros2_ws/build/realsense2_description
+[1.691s] -- Install configuration: ""
+[1.696s] -- Execute custom install script
+[1.699s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/launch/launch_utils.py
+[1.736s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/launch/view_model.launch.py
+[1.771s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d415.stl
+[1.803s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae
+[1.832s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/d455.stl
+[1.864s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/l515.dae
+[1.932s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/plug.stl
+[1.965s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl
+[1.999s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz
+[2.031s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro
+[2.061s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro
+[2.098s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro
+[2.128s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro
+[2.159s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_d455.urdf.xacro
+[2.196s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_l515.urdf.xacro
+[2.275s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro
+[2.381s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro
+[2.442s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro
+[2.506s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro
+[2.558s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro
+[2.643s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro
+[2.678s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro
+[2.707s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro
+[2.737s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d455_camera.urdf.xacro
+[2.767s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_l515_camera.urdf.xacro
+[2.793s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro
+[2.822s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro
+[2.846s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/ament_index/resource_index/package_run_dependencies/realsense2_description
+[2.870s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/ament_index/resource_index/parent_prefix_path/realsense2_description
+[2.901s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.sh
+[2.926s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.dsv
+[2.952s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/environment/path.sh
+[2.984s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/environment/path.dsv
+[3.020s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.bash
+[3.056s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.sh
+[3.085s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.zsh
+[3.118s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/local_setup.dsv
+[3.143s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/package.dsv
+[3.171s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/ament_index/resource_index/packages/realsense2_description
+[3.246s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake
+[3.344s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake
+[3.455s] -- Symlinking: /home/aggregator/ros2_ws/install/realsense2_description/share/realsense2_description/package.xml
+[3.515s] Invoked command in '/home/aggregator/ros2_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aggregator/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aggregator/ros2_ws/build/realsense2_description

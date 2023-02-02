@@ -1,0 +1,5 @@
+[console_scripts]
+intel_cam_subber = py_pubsub.intel_cam_subber:main
+listener = py_pubsub.subscriber_member_function:main
+talker = py_pubsub.publisher_member_function:main
+

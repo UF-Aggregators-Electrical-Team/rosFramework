@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing perception_navigation.egg-info/PKG-INFO
+writing dependency_links to perception_navigation.egg-info/dependency_links.txt
+writing entry points to perception_navigation.egg-info/entry_points.txt
+writing requirements to perception_navigation.egg-info/requires.txt
+writing top-level names to perception_navigation.egg-info/top_level.txt
+reading manifest file 'perception_navigation.egg-info/SOURCES.txt'
+writing manifest file 'perception_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/site.py
+Creating /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception-navigation.egg-link (link to .)
+Installing intel_image_subber script to /home/aggregator/ros2_ws/install/perception_navigation/lib/perception_navigation
+
+Installed /home/aggregator/ros2_ws/build/perception_navigation
+running install_data

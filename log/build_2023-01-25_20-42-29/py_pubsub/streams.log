@@ -1,0 +1,21 @@
+[1.167s] Invoking command in '/home/aggregator/ros2_ws/build/py_pubsub': PYTHONPATH=/home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/aggregator/ros2_ws/install/py_pubsub --editable --build-directory /home/aggregator/ros2_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/aggregator/ros2_ws/install/py_pubsub
+[2.314s] running develop
+[3.215s] running egg_info
+[3.217s] writing py_pubsub.egg-info/PKG-INFO
+[3.219s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[3.224s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[3.226s] writing requirements to py_pubsub.egg-info/requires.txt
+[3.227s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[3.416s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[3.420s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[3.591s] running build_ext
+[3.593s] Creating /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/site.py
+[3.603s] Creating /home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)
+[3.607s] Installing intel_cam_subber script to /home/aggregator/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.608s] Installing listener script to /home/aggregator/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.610s] Installing talker script to /home/aggregator/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.613s] 
+[3.613s] Installed /home/aggregator/ros2_ws/build/py_pubsub
+[3.614s] running install_data
+[3.615s] copying package.xml -> /home/aggregator/ros2_ws/install/py_pubsub/share/py_pubsub
+[3.736s] Invoked command in '/home/aggregator/ros2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/aggregator/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/aggregator/ros2_ws/install/py_pubsub --editable --build-directory /home/aggregator/ros2_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/aggregator/ros2_ws/install/py_pubsub

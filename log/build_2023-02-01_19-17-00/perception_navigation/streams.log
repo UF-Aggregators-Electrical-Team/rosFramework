@@ -1,0 +1,33 @@
+[0.984s] Invoking command in '/home/aggregator/ros2_ws/src/perception_navigation': PYTHONPATH=/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/perception_navigation build --build-base /home/aggregator/ros2_ws/build/perception_navigation/build install --prefix /home/aggregator/ros2_ws/install/perception_navigation --record /home/aggregator/ros2_ws/build/perception_navigation/install.log --single-version-externally-managed
+[1.705s] running egg_info
+[1.707s] creating ../../build/perception_navigation/perception_navigation.egg-info
+[1.707s] writing ../../build/perception_navigation/perception_navigation.egg-info/PKG-INFO
+[1.708s] writing dependency_links to ../../build/perception_navigation/perception_navigation.egg-info/dependency_links.txt
+[1.709s] writing entry points to ../../build/perception_navigation/perception_navigation.egg-info/entry_points.txt
+[1.709s] writing requirements to ../../build/perception_navigation/perception_navigation.egg-info/requires.txt
+[1.709s] writing top-level names to ../../build/perception_navigation/perception_navigation.egg-info/top_level.txt
+[1.715s] writing manifest file '../../build/perception_navigation/perception_navigation.egg-info/SOURCES.txt'
+[1.833s] reading manifest file '../../build/perception_navigation/perception_navigation.egg-info/SOURCES.txt'
+[1.835s] writing manifest file '../../build/perception_navigation/perception_navigation.egg-info/SOURCES.txt'
+[1.836s] running build
+[1.836s] running build_py
+[1.836s] creating /home/aggregator/ros2_ws/build/perception_navigation/build
+[1.836s] creating /home/aggregator/ros2_ws/build/perception_navigation/build/lib
+[1.837s] creating /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation
+[1.837s] copying perception_navigation/__init__.py -> /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation
+[1.837s] running install
+[1.840s] running install_lib
+[1.844s] creating /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation
+[1.844s] copying /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation/__init__.py -> /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation
+[1.845s] byte-compiling /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation/__init__.py to __init__.cpython-38.pyc
+[1.849s] running install_data
+[1.851s] creating /home/aggregator/ros2_ws/install/perception_navigation/share/ament_index
+[1.851s] creating /home/aggregator/ros2_ws/install/perception_navigation/share/ament_index/resource_index
+[1.852s] creating /home/aggregator/ros2_ws/install/perception_navigation/share/ament_index/resource_index/packages
+[1.852s] copying resource/perception_navigation -> /home/aggregator/ros2_ws/install/perception_navigation/share/ament_index/resource_index/packages
+[1.852s] copying package.xml -> /home/aggregator/ros2_ws/install/perception_navigation/share/perception_navigation
+[1.852s] running install_egg_info
+[1.858s] Copying ../../build/perception_navigation/perception_navigation.egg-info to /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation-0.0.0-py3.8.egg-info
+[1.861s] running install_scripts
+[1.918s] writing list of installed files to '/home/aggregator/ros2_ws/build/perception_navigation/install.log'
+[1.990s] Invoked command in '/home/aggregator/ros2_ws/src/perception_navigation' returned '0': PYTHONPATH=/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/perception_navigation build --build-base /home/aggregator/ros2_ws/build/perception_navigation/build install --prefix /home/aggregator/ros2_ws/install/perception_navigation --record /home/aggregator/ros2_ws/build/perception_navigation/install.log --single-version-externally-managed

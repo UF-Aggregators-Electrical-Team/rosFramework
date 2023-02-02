@@ -1,0 +1,18 @@
+[0.954s] Invoking command in '/home/aggregator/ros2_ws/build/perception_navigation': PYTHONPATH=/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/aggregator/ros2_ws/install/perception_navigation --editable --build-directory /home/aggregator/ros2_ws/build/perception_navigation/build --no-deps install_data --install-dir /home/aggregator/ros2_ws/install/perception_navigation
+[1.924s] running develop
+[2.922s] running egg_info
+[2.923s] writing perception_navigation.egg-info/PKG-INFO
+[2.925s] writing dependency_links to perception_navigation.egg-info/dependency_links.txt
+[2.926s] writing entry points to perception_navigation.egg-info/entry_points.txt
+[2.927s] writing requirements to perception_navigation.egg-info/requires.txt
+[2.928s] writing top-level names to perception_navigation.egg-info/top_level.txt
+[3.046s] reading manifest file 'perception_navigation.egg-info/SOURCES.txt'
+[3.049s] writing manifest file 'perception_navigation.egg-info/SOURCES.txt'
+[3.361s] running build_ext
+[3.363s] Creating /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/site.py
+[3.370s] Creating /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception-navigation.egg-link (link to .)
+[3.374s] Installing intel_image_subber script to /home/aggregator/ros2_ws/install/perception_navigation/lib/perception_navigation
+[3.380s] 
+[3.380s] Installed /home/aggregator/ros2_ws/build/perception_navigation
+[3.381s] running install_data
+[3.485s] Invoked command in '/home/aggregator/ros2_ws/build/perception_navigation' returned '0': PYTHONPATH=/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/aggregator/ros2_ws/install/perception_navigation --editable --build-directory /home/aggregator/ros2_ws/build/perception_navigation/build --no-deps install_data --install-dir /home/aggregator/ros2_ws/install/perception_navigation

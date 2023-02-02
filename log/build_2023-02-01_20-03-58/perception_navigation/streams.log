@@ -1,0 +1,30 @@
+[1.262s] Invoking command in '/home/aggregator/ros2_ws/build/perception_navigation': PYTHONPATH=/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/aggregator/ros2_ws/install/perception_navigation --uninstall --editable --build-directory /home/aggregator/ros2_ws/build/perception_navigation/build
+[2.160s] running develop
+[2.784s] Removing /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception-navigation.egg-link (link to .)
+[2.862s] Invoked command in '/home/aggregator/ros2_ws/build/perception_navigation' returned '0': PYTHONPATH=/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/aggregator/ros2_ws/install/perception_navigation --uninstall --editable --build-directory /home/aggregator/ros2_ws/build/perception_navigation/build
+[2.864s] Invoking command in '/home/aggregator/ros2_ws/src/perception_navigation': PYTHONPATH=/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/perception_navigation build --build-base /home/aggregator/ros2_ws/build/perception_navigation/build install --prefix /home/aggregator/ros2_ws/install/perception_navigation --record /home/aggregator/ros2_ws/build/perception_navigation/install.log --single-version-externally-managed
+[3.690s] running egg_info
+[3.692s] writing ../../build/perception_navigation/perception_navigation.egg-info/PKG-INFO
+[3.693s] writing dependency_links to ../../build/perception_navigation/perception_navigation.egg-info/dependency_links.txt
+[3.693s] writing entry points to ../../build/perception_navigation/perception_navigation.egg-info/entry_points.txt
+[3.694s] writing requirements to ../../build/perception_navigation/perception_navigation.egg-info/requires.txt
+[3.694s] writing top-level names to ../../build/perception_navigation/perception_navigation.egg-info/top_level.txt
+[3.851s] reading manifest file '../../build/perception_navigation/perception_navigation.egg-info/SOURCES.txt'
+[3.855s] writing manifest file '../../build/perception_navigation/perception_navigation.egg-info/SOURCES.txt'
+[3.856s] running build
+[3.859s] running build_py
+[3.859s] copying perception_navigation/intel_image_subber.py -> /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation
+[3.861s] running install
+[3.862s] running install_lib
+[3.862s] creating /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation
+[3.862s] copying /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation/intel_image_subber.py -> /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation
+[3.863s] copying /home/aggregator/ros2_ws/build/perception_navigation/build/lib/perception_navigation/__init__.py -> /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation
+[3.865s] byte-compiling /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation/intel_image_subber.py to intel_image_subber.cpython-38.pyc
+[3.869s] byte-compiling /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation/__init__.py to __init__.cpython-38.pyc
+[3.870s] running install_data
+[3.873s] running install_egg_info
+[3.879s] Copying ../../build/perception_navigation/perception_navigation.egg-info to /home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages/perception_navigation-0.0.0-py3.8.egg-info
+[3.882s] running install_scripts
+[3.948s] Installing intel_image_subber script to /home/aggregator/ros2_ws/install/perception_navigation/lib/perception_navigation
+[3.949s] writing list of installed files to '/home/aggregator/ros2_ws/build/perception_navigation/install.log'
+[4.032s] Invoked command in '/home/aggregator/ros2_ws/src/perception_navigation' returned '0': PYTHONPATH=/home/aggregator/ros2_ws/install/perception_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/perception_navigation build --build-base /home/aggregator/ros2_ws/build/perception_navigation/build install --prefix /home/aggregator/ros2_ws/install/perception_navigation --record /home/aggregator/ros2_ws/build/perception_navigation/install.log --single-version-externally-managed

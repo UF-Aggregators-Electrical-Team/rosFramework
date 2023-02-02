@@ -1,0 +1,3 @@
+[console_scripts]
+intel_image_subber = perception_navigation.intel_image_subber:main
+
